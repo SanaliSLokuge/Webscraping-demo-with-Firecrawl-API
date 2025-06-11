@@ -19,6 +19,8 @@ This dual-approach ensures broad website compatibility and resilient performance
 
 ---
 
+#Colab Notebook link: https://colab.research.google.com/drive/15HR8JrkOPQlQm6LYLpg2rxpAjrQlsfXh?usp=sharing
+
 ##  Requirements
 
 - Python 3.7+
