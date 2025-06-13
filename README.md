@@ -16,10 +16,9 @@ This dual-approach ensures broad website compatibility and resilient performance
 -  Element path tracing for search context
 -  Headline, image, link, paragraph, and full-text extraction
 
-
 ---
 
-#Colab Notebook link: https://colab.research.google.com/drive/15HR8JrkOPQlQm6LYLpg2rxpAjrQlsfXh?usp=sharing
+Colab Notebook link: https://colab.research.google.com/drive/15HR8JrkOPQlQm6LYLpg2rxpAjrQlsfXh?usp=sharing
 
 ##  Requirements
 
