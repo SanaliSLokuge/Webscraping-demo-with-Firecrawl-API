@@ -30,3 +30,78 @@ Install with:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## 🧪 Input/Output Examples
+
+### ✅ Example 1: Extract headlines from a static page
+**Input:**
+```makefile
+URL: https://wiki.openstreetmap.org/  
+Choice: 1 (headlines)
+```
+
+🔹 Welcome to OpenStreetMap  
+🔹 How to Contribute  
+🔹 Map Features  
+...
+```
+URL: https://www.bbc.com/  
+Choice: 2 (title)
+```
+Title: BBC - Homepage
+
+```
+URL: https://wiki.openstreetmap.org/  
+Choice: 3 (text)
+
+```
+OpenStreetMap is a map of the world, created by people like you and free to use under an open license. Learn more about the project and how you can contribute...
+
+
+```
+URL: https://wiki.openstreetmap.org/  
+Choice: 4 (links)
+
+```
+🔗 /wiki/Map_Features  
+🔗 /wiki/Editing  
+🔗 https://www.openstreetmap.org/about  
+...
+
+```
+URL: https://wiki.openstreetmap.org/  
+Choice: 5 (images)
+
+```
+🖼️ /cc-wiki.png  
+🖼️ https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Preferences-system.svg/80px-Preferences-system.svg.png  
+🖼️ /w/extensions/OSMCALWikiWidget/resources/osmcal-icon.png  
+...
+```
+URL: https://wiki.openstreetmap.org/  
+Choice: 6 (paragraphs)
+```
+OpenStreetMap is the free and editable map of the world, created by volunteers using local knowledge, GPS tracks and other free sources of information.
+
+Everyone can contribute to OpenStreetMap and use the map data for free, under the Open Database License.
+
+We aim to create and provide free geographic data, such as street maps, to anyone who wants them.
+...
+
+```
+URL: https://www.bbc.com/  
+Choice: 7 (keyword search)  
+Keyword: culture
+
+```
+
+🔗 Page: https://www.bbc.com/travel/destinations/middle-east  
+  📝 ...helping to preserve traditional Bedouin culture....
+
+🔗 Page: https://www.bbc.com/travel/destinations/europe  
+  📝 ...art and culture is transforming a once-neglected stretch...
+  📝 ...o its fascinating history and authentic culture....
+
+🔗 Page: https://www.bbc.com/travel/destinations/africa  
+  📝 ...rituals and cultures through food....
